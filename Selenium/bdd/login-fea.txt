@@ -1,0 +1,10 @@
+Feature: AmazonLogin
+Scenario: Login functionallity Test
+Given user launch chrome browser
+When user opens url "http://amazon.in"
+And user click on signin button
+And user enter email as "gnaneshwar.vallala@gmail.com"
+And user click on continue button
+And user enter password as "Vallala1919"
+And user click on Login button
+Then page url should be "https://www.amazon.in/ref_=nav_ya_signing"

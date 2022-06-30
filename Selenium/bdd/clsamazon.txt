@@ -1,0 +1,47 @@
+package pomPages;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+
+public class clsAmazon 
+{
+	public WebDriver wd;
+	
+	public clsAmazon(WebDriver d)
+	{
+		wd=d;
+	}
+	
+	
+	By linkSignIn=By.xpath("//*[id='nav-link-account:List']/span[1]");
+	By txtEmail=By.xpath("//*[id='ap_email']");
+	By btnContinue=By.xpath("//*[id='continue']");
+	By txtpwd=By.xpath("//*[id='ap_password']");
+	By btnLogin=By.xpath("//*[id='signInSubmit']");
+	By txtSearch=By.xpath("//*[id='twotabsearchtextbox']");
+	By btnSearch=By.xpath("//*[id='nav-search']/form/div[2]/div/input");
+	
+
+	public void clickSign() 
+	{
+		wd.findElement(linkSignIn).click();
+	}
+	public void clickContinue()
+	{
+		wd.findElement(btnContinue).click();
+		
+	}
+	public void clickLogin()
+	{
+		wd.findElement(btnLogin).click();
+	}
+	public void setEmail(String username)
+	{
+		wd.findElement(txtEmail).sendKeys(username);
+	}
+	public void setpassword(String pwd )
+	{
+		wd.findElement(txtpwd).sendKeys(pwd);
+	}
+	
+}

@@ -1,0 +1,11 @@
+1. implement array program with following activities
+	a. declare an array with size 7
+	b. take element values at runtime
+	c. print the array
+	d. sort the array data
+	e. print the sorted data
+
+2. Display given string in Reverse order
+
+3. Display the id of given email address
+

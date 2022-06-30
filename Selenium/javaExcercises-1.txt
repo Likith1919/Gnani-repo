@@ -1,0 +1,17 @@
+1. write a java program to print the following pattern
+
+1
+1 2
+1 2 3
+1 2 3 4
+1 2 3 4 5
+
+2. write a java program to display prime numbers below 20
+
+3. modify switch case program in such a way that ask the user to continue or not after the iteration.
+
+Enter Number1 : 10
+Enter Number2 : 30
+Enter choice of operation(+/-/*) : +
+The arithmetic operation + on 10 with 30 is : 40
+Do you want to Continue(y/n) ? y
